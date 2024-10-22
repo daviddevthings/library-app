@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, 'build')))
 
 const mongoose = require('mongoose')
-mongoose.connect("mongodb+srv://admin:AvsGyHo7zO0mmfLd@cluster0.ze9cfcb.mongodb.net/library?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect("dblink", { useNewUrlParser: true, useUnifiedTopology: true })
 const db = mongoose.connection
 db.on('error', (error) => console.error(error))
 db.once('open', () => console.log("Connected to Database"))
