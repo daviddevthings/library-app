@@ -13,4 +13,4 @@ Database: MongoDB
 
 Book CRUD: Create, read, update, and delete books.\
 RESTful API: Robust API endpoints for managing books.\
-Responsive UI: Built using Tailwind CSS for a modern, responsive design.\
+Responsive UI: Built using Tailwind CSS for a modern, responsive design.
